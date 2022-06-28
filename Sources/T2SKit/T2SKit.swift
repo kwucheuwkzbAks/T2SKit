@@ -13,7 +13,8 @@ public enum Tun2Socks {
                 {
                     "protocol": "tun",
                     "settings": {
-                        "fd": \(fd)
+                        "fd": \(fd),
+                        "udp": true
                     },
                     "tag": "tun"
                 }
